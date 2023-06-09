@@ -23,7 +23,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 1,
                 'username' => 'alfonsus',
-                'password' => '$2y$10$2HKoOs4jLqNnLEGjEQQpP.sd6HhOfpNXCzHHlqwzbMj1p9G4rDOTa',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:33',
@@ -34,7 +34,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 2,
                 'username' => 'ucup_surucup',
-                'password' => '$2y$10$ic2ra2GjqY8eeKekqlD0JuBzXezg0UoEVz4dWsEw/KwPyCbeCzCZ6',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:33',
@@ -45,7 +45,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 3,
                 'username' => 'udin_saprudin',
-                'password' => '$2y$10$Kbv/pOXcOjiWAK55OtivQ.vnlXlhBTkMlt9g9mMGRWt0xKECuUy1u',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:33',
@@ -56,7 +56,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 4,
                 'username' => 'faizah_nugraha',
-                'password' => '$2y$10$gFQgNb1cE/.NONEGKRZAQ.lCQr1OlF2903TMcrBPuu7C6AUWBAteW',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:33',
@@ -67,7 +67,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 5,
                 'username' => 'nadya',
-                'password' => '$2y$10$2r9MbsElkWZOzYt6.2jxd.yUc6G3cYcwUJTc/VF7g/h8bfY7DTNhK',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:33',
@@ -78,7 +78,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 6,
                 'username' => 'henry',
-                'password' => '$2y$10$RzDMTwutndy9eTv8P17JleumPeOynf6xwKjMRtJAtyTXVpKX/xd6C',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:33',
@@ -89,7 +89,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 7,
                 'username' => 'Alfonsus',
-                'password' => '$2y$10$4J.l.fJW/eLR7r4ZMr05oOdIdsC9vzNC3S1v.s88mBJCUi2qmPmwe',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -100,7 +100,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 8,
                 'username' => 'JK',
-                'password' => '$2y$10$RgZ6laWcU4u2Vh1QBn8Q4OHaz1aSf2ylkoHMaUlIx9KNW1mCf0Zoa',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -111,7 +111,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 9,
                 'username' => 'Lisa',
-                'password' => '$2y$10$t2MOhzUoLDtPengVfA06juv44GW8ss1RJFt3nsfqV.NFDu2RkqMCi',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -122,7 +122,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 10,
                 'username' => 'Hobby',
-                'password' => '$2y$10$ouKTzb/uU0Zr4i7xoktXp.5AjEHGPU.oP.dDdtgXtbgxcEiUS1JHe',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -133,7 +133,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 11,
                 'username' => 'V',
-                'password' => '$2y$10$KbjbFJGRF0i9/uIMqTLjded926Ml9vpqfTJj6n61vkKn5Atk.M.I.',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -144,7 +144,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 12,
                 'username' => 'Jenny',
-                'password' => '$2y$10$R6NELKVnqu7hYhM.ky.DGOUKJYlqHzl8hocNRHGI/uZNhhvNVSHZG',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -155,7 +155,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 13,
                 'username' => 'Suga',
-                'password' => '$2y$10$yY.lAAoX7lu1GDjFPJFJ3.4OA79Egf0JyMBDzsPOACkXzXy5iqU3a',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -166,7 +166,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 14,
                 'username' => 'Jin',
-                'password' => '$2y$10$bWMpp4xS6RPWqJN6HEFXRunbOcj3UnlGUPDJEo12tjSZhH94rasJu',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -177,7 +177,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 15,
                 'username' => 'Jiso',
-                'password' => '$2y$10$ZYBCqtyoeYClEgotmIBH.uSZHsLCQRId5Gw5fyh4r1P4qEa8gXkM.',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -188,7 +188,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 16,
                 'username' => 'Jimin',
-                'password' => '$2y$10$9CoSioqMU1HHMCf4E83WvelpW/xNVjCaw53FWr0GrOKqJCAoMp1z6',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -199,7 +199,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 17,
                 'username' => 'Rose',
-                'password' => '$2y$10$795iuTR4l6uNchMFkwaDmOdkCznxBPv6xP2y8iaP./evHLW0Z.DaC',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -210,7 +210,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 18,
                 'username' => 'Jessi',
-                'password' => '$2y$10$V6CzbHqTgP6435Qg0oo6EumLNIyyYiwAakuOa3MPacauDv7wNwmim',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -221,7 +221,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 19,
                 'username' => 'admin',
-                'password' => '$2y$10$knKC2eB7JkU9hcXLF8tPO.i6QKg1md1xaPOJ8fVAw0PVpqIwxGNQS',
+                'password' => bcrypt('0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:34',
@@ -232,7 +232,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 20,
                 'username' => 'admin_ganteng1',
-                'password' => '$2y$10$wEa.XC67Ryn4SyFTsRUC/ee7b2cVA0xpgYLMuVck0.rCJDDo11Axa',
+                'password' => bcrypt('0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -243,7 +243,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 21,
                 'username' => 'mo_ganteng1',
-                'password' => '$2y$10$m/TAt/yZWT6u3VWv2iV/ru6Ns1vJuulOBi.JaMfD7BFWJ9eCTjTo6',
+                'password' => bcrypt('0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -254,7 +254,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 22,
                 'username' => 'Yunita',
-                'password' => '$2y$10$UAmx0bTPgrWIC1RrAtxJEu8ClJRilcHPaQHWnJH/Xrtlj3/Rc6fRG',
+                'password' => bcrypt('0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -265,7 +265,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 23,
                 'username' => 'Putri',
-                'password' => '$2y$10$XsmnQX5C6dizU9WwGHIlwe9z2HsnVgJwYz6eJQadryMCK/L9PZCTK',
+                'password' => bcrypt('0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -276,7 +276,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 24,
                 'username' => 'Yuna',
-                'password' => '$2y$10$fraDqt8adIi8UJBK/C7tMuIneEIkHTuKthID/Dbpr60QkfxbYD/iC',
+                'password' => bcrypt('0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -287,7 +287,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 25,
                 'username' => 'Bambang',
-                'password' => '$2y$10$4KZdLx/xwJc.ZbaDkNLlC.GBuYXnu99VwHgPN50zC0zfsX4PDo2BG',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -298,7 +298,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 26,
                 'username' => 'Tono',
-                'password' => '$2y$10$lYKj8TetZt2zj8zoOTa5BeXQh/jwIZNWliM5rC.O8kbuZmexEEdVC',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -309,7 +309,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 27,
                 'username' => 'Adi',
-                'password' => '$2y$10$eXNzcN383gxi9MTD2jYZaeYpTsFD7O3K1LQ9HxMJYcEgwpkGumm5m',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-02 00:54:35',
@@ -320,7 +320,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 28,
                 'username' => 'alfons',
-                'password' => '$2y$10$10UJQ0P1oOOlRl/h6Nym5eOfZzDPlkj2bP6GROv5.x8TBW3vzXQqW',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:38:53',
@@ -331,7 +331,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 29,
                 'username' => 'alfons',
-                'password' => '$2y$10$TV0hyOoE5gwxwhF4ZZkS9udxcLAV1vku2PHr4I21152hE9fsU6sre',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:39:32',
@@ -342,7 +342,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 30,
                 'username' => 'alfons',
-                'password' => '$2y$10$4URBqPAxU8RYub.OJcj3IuyABSjKclAmTwbLLZflriynvQx4Z2/h2',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:45:15',
@@ -353,7 +353,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 31,
                 'username' => 'alfons',
-                'password' => '$2y$10$O1OhVXGyvQ5EjJkRjhYd1eN0bW6t9tzsm8bctOESq1gc6PGw8Kez.',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:52:12',
@@ -364,7 +364,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 32,
                 'username' => 'alfons',
-                'password' => '$2y$10$O9Qqn7b5stw7398OEfkCVOlsSCBw./9vel3lSHHjDQtTddYr/0GSC',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:52:55',
@@ -375,7 +375,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 33,
                 'username' => 'alfons',
-                'password' => '$2y$10$C.VB7u6DdEXXDCV8f7Ol3uGtkNu4/puGaHoLyrfDHbo5uuooQWfM2',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:53:35',
@@ -386,7 +386,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 34,
                 'username' => 'alfons',
-                'password' => '$2y$10$/KsoCNDtkWMAQDF8QIiwuOkVTHpMNBpRdusNkJR0S6slqHmuTF4ZS',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:54:28',
@@ -397,7 +397,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 35,
                 'username' => 'alfons',
-                'password' => '$2y$10$7avB7bTUq9NeReivHJt72ORbtTlGHyAz9IhD9NRKGswe.m88YwlJi',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:54:46',
@@ -408,7 +408,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 36,
                 'username' => 'alfons',
-                'password' => '$2y$10$zIxiU57EGOaI1by9BBy45O8P0EGLueCwBEejfuPfX5TcAojUgf9Qu',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:55:10',
@@ -419,7 +419,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 37,
                 'username' => 'alfons',
-                'password' => '$2y$10$id4wJAIsC1hSlWCz7PtJXeyn4kYWS29yHcQZ280QcOA7Spd3DbR/C',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 20:55:40',
@@ -430,7 +430,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 38,
                 'username' => 'alfons',
-                'password' => '$2y$10$aipOVGwlF2eNhVPYiUPWHu0l2JFo4TcO9Y/fF4qHSxOVO4S/UnXi2',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:01:58',
@@ -441,7 +441,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 39,
                 'username' => 'alfons',
-                'password' => '$2y$10$rPc/LX5kslRL8Cp6USORKu5j2cwf65NcQzsvXFyHNjKAztAdcyH3m',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:03:13',
@@ -452,7 +452,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 40,
                 'username' => 'alfons',
-                'password' => '$2y$10$bQvQ6rRftGD1HGrQSWUE3OFLjjd93IQuGk4sweKyIwrhGMuualYNG',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:06:27',
@@ -463,7 +463,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 41,
                 'username' => 'alfons',
-                'password' => '$2y$10$6DOZrWSXjfKjYBhDzdfSBOPWTcFm7vLz670MfMX9JHd7N43.LAecu',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:14:55',
@@ -474,7 +474,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 42,
                 'username' => 'alfons',
-                'password' => '$2y$10$fsY3jEO667mGxtbq8UjxleNldFyrule0ETIdgghF6DidJ6nlZnmIC',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:15:32',
@@ -485,7 +485,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 43,
                 'username' => 'alfons',
-                'password' => '$2y$10$gfob5WfTkTD7JuuU0qlg0eFyIV5gS2kseMx33v8XLJrHDLXU/w8X.',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:16:27',
@@ -496,7 +496,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 44,
                 'username' => 'alfons',
-                'password' => '$2y$10$VJPaCyFkvDl9SyFs7Ee.tu8jAF5FNukabCmXBxdMlfsBYICDzMYcW',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:18:00',
@@ -507,7 +507,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 45,
                 'username' => 'alfons',
-                'password' => '$2y$10$BJduItfLaOFxuujgrm8QCe677M3iDvmkxtjOolxZuz9swDLdFECBG',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:19:37',
@@ -518,7 +518,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 46,
                 'username' => 'alfons',
-                'password' => '$2y$10$QO2Lgv80tC2NdWxf.o6tHufpug5UIHLQXv0jHOwLB0h9rzlKlsVp6',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:20:55',
@@ -529,7 +529,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 47,
                 'username' => 'alfons',
-                'password' => '$2y$10$/YacgDUw2WzrSTHp9ulegeTofXDilJBuymy86hu08Bb9niNzWBBJC',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:23:16',
@@ -540,7 +540,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 48,
                 'username' => 'alfons',
-                'password' => '$2y$10$JPU8H2xHzlGaUwRxW4g0du7lo7tz7uJbJXOuCW0SisHmeO8WOM6S.',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:25:07',
@@ -551,7 +551,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 49,
                 'username' => 'alfons',
-                'password' => '$2y$10$w6f5xi8t0lj3CGF69uSGFe2ZUlOwIQK.BH.h.I8EDjNqRYoj6jWoO',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:25:44',
@@ -562,7 +562,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 50,
                 'username' => 'alfons',
-                'password' => '$2y$10$XoAnDNfKfbbqepKb5DVI/.M3GT4tpdUNKes0RldDwxrI0ZAjBMP8W',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:27:54',
@@ -573,7 +573,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 51,
                 'username' => 'alfons',
-                'password' => '$2y$10$.AFbPJyVO9yvfNgzpxtrQ.oTBC4QIALYx0kP0sx/QU0PqXLspQR5m',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:28:10',
@@ -584,7 +584,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 52,
                 'username' => 'alfons',
-                'password' => '$2y$10$5GpMbOf/J52uljoSwJMcz.1P50QYgl0lf6h5OOKTeDT7K9WrMIGZy',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:28:59',
@@ -595,7 +595,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 53,
                 'username' => 'alfons',
-                'password' => '$2y$10$n8kyhaAMr98zDh72wYhpP.TPp.twt0L6HUyHpJosFfaNew5i3YsI6',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:30:03',
@@ -606,7 +606,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 54,
                 'username' => 'alfons',
-                'password' => '$2y$10$SLzTXxMQB41GYG6d/Xr/cO80BcQA0v8447TzepUMkQvpJXgx8ZNja',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:32:35',
@@ -617,7 +617,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 55,
                 'username' => 'alfons',
-                'password' => '$2y$10$3AqKacRpDCk7iOQX/w6XAOo5hZolftMz4URCN4Wqftsrjxj8D263y',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:32:47',
@@ -628,7 +628,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 56,
                 'username' => 'alfons',
-                'password' => '$2y$10$FAdbzgY5cy9ZG.4afhmlM.N5vrALDN0XuSrZ.tU5IXFYz2G8GvtBC',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 21:56:10',
@@ -639,7 +639,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 57,
                 'username' => 'alfons',
-                'password' => '$2y$10$vK1lY/LXuEcG7eUNL1QqXO8hNsI5aAGkVB2/RDmkUOCvnuwPuO/Iq',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:12:22',
@@ -650,7 +650,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 58,
                 'username' => 'alfons',
-                'password' => '$2y$10$pV1VvBOfLAmfWYlF0gicgesyeISjBHltNnKV/SVu2PXum7ztKHrCS',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:16:46',
@@ -661,7 +661,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 59,
                 'username' => 'alfons',
-                'password' => '$2y$10$1J/iHvmRcz1MMx0JA0XKZey/aKxR0.B9W09Koufw7l/Fa71kwWOxy',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:16:59',
@@ -672,7 +672,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 60,
                 'username' => 'alfons',
-                'password' => '$2y$10$6PLLBkl0Cbn6rB0djl3GveGtaMWusmPDV42PdBAqvSPiDloseA8tq',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:17:27',
@@ -683,7 +683,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 61,
                 'username' => 'alfons',
-                'password' => '$2y$10$AUpZCFosdwBSeIskMxBkcu85JZ05LkNstsWeDeJ1v8s/tcb58SP3C',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:40:31',
@@ -694,7 +694,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 62,
                 'username' => 'alfons',
-                'password' => '$2y$10$qYOMOJI4kyCCA1rArOHC/.KmcwwFkOQePg7O.mBDtE7iqGE5KADgi',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:52:33',
@@ -705,7 +705,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 63,
                 'username' => 'alfons',
-                'password' => '$2y$10$ZNbwHw1BuW8lFtyLw3UG9OhgqpfUOp7/TQY4ljoPTQirM5HU5BSeK',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:53:48',
@@ -716,7 +716,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 64,
                 'username' => 'alfons',
-                'password' => '$2y$10$.uEkPxm.OCZyyrYIdOm0z.FTfDB7tHeLTbP.9eYCKE.svkaiBO2Ma',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:53:59',
@@ -727,7 +727,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 65,
                 'username' => 'alfons',
-                'password' => '$2y$10$9lduTyKk57ppctXL9XVYM.G.VjNv4Wlt1ODBuBQVJ2fOM8O9yHZna',
+                'password' => bcrypt('0541'),
                 'role' => ' instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:56:17',
@@ -738,7 +738,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 66,
                 'username' => 'alfons',
-                'password' => '$2y$10$87Tu32.qAwhekkcen6BQMuMrC55LggFHUks5lOZrZCeyiyx06sxvu',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-14 22:57:47',
@@ -749,7 +749,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 67,
                 'username' => '-',
-                'password' => '$2y$10$2xLov.7ElJCY59qIgg0vzO1mIVqVzb9QVl3LIv9IESjhhT7yJ/JZK',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:31:07',
@@ -760,7 +760,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 70,
                 'username' => '-',
-                'password' => '$2y$10$CFN0.7PN1.ipFSAtpEjLtuNQ1MYZHNHgKhzpBEzmWA7Ew/FrUhiM6',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:32:44',
@@ -771,7 +771,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 73,
                 'username' => '-',
-                'password' => '$2y$10$e3i95zyEo5umyblX1V3nZOwjaYmpbrleqL95o324Lv.XPfgataVru',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:35:31',
@@ -782,7 +782,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 74,
                 'username' => '-',
-                'password' => '$2y$10$Azf8x.omUleiXnASWIW4nu49wpmIBW7v.f6Evu4bFbds9ThlF.KSG',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:35:54',
@@ -793,7 +793,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 75,
                 'username' => '-',
-                'password' => '$2y$10$wwYQtZbrx9GgB98OxfJVZeq8nUOfEn54VY7kew5PAutJmrX/SY6we',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:37:18',
@@ -804,7 +804,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 76,
                 'username' => '-',
-                'password' => '$2y$10$ndUeAUeI7pUcEFsj8gatVOA05BVgpj/QE2o94GiQTPUchpI2AVMTS',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:37:36',
@@ -815,7 +815,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 91,
                 'username' => '-',
-                'password' => '$2y$10$o9EzDNp1aCbhptMR1duN6u09xC6mGWP3Bf2eJTTBr0nRsu3PKAgNm',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:50:36',
@@ -826,7 +826,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 92,
                 'username' => '-',
-                'password' => '$2y$10$PZXmVwThlMl63304G5Jknex.XwVf5SBtYEIia1.r.vOd93EeyFvQ2',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:51:45',
@@ -837,7 +837,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 93,
                 'username' => '-',
-                'password' => '$2y$10$OXZc5zKzhTEYXXLLa.la/O1xx.ud0JQgMguWbGe9t7SYuYaL7NvNC',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:52:35',
@@ -848,7 +848,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 94,
                 'username' => '-',
-                'password' => '$2y$10$WWtbgaEY/zh2YbxW4sO/zOrKZ4ihzQ4YtAFcpJchSx0ZsJQXho.H6',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:52:54',
@@ -859,7 +859,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 97,
                 'username' => '23.04.040',
-                'password' => '$2y$10$vSlGYQflxIlD.Dmx0RAbse4ATxsEyYXCoLgdaqpvlXx/QwMxn1A5K',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:55:39',
@@ -870,7 +870,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 98,
                 'username' => '23.04.041',
-                'password' => '$2y$10$vMs6mCGDY.ZL94AlTuB46uMfoGHsrO2I/CJIsGPWQIQE77FUEO8aW',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-15 08:56:24',
@@ -881,7 +881,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 99,
                 'username' => '23.04.021',
-                'password' => '$2y$10$Inj9s4EalHD20skgBAaZ7e/66IsgrNqD/FNxdwD6fycb9RTSZEDei',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:03:56',
@@ -892,7 +892,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 101,
                 'username' => '23.04.023',
-                'password' => '$2y$10$U//MamuWhmyvp5qgOECDUuHK3huxpAcmSPIsk0JAlCZq23nNaQKwS',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:35:25',
@@ -903,7 +903,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 102,
                 'username' => '23.04.024',
-                'password' => '$2y$10$oHf2M3jOpwFQgm0ucmQbPOG2eTuwW.a4Jr856BMSfN1vojY7cCP0m',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:39:12',
@@ -914,7 +914,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 103,
                 'username' => '23.04.025',
-                'password' => '$2y$10$wzwl/Yxgd0mXNQUOBKIz7.qUFz9BpXJdXnUuejUjhLsii38duRrMu',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:51:59',
@@ -925,7 +925,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 104,
                 'username' => '23.04.026',
-                'password' => '$2y$10$njvk2hf1GHj.y2X2XX3QguK3EzfZ86ogZXyKeeWTCVF2Cf7mPJZbq',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:52:09',
@@ -936,7 +936,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 105,
                 'username' => '23.04.027',
-                'password' => '$2y$10$yLrHuWIW3adAYBbvpf4Rf.d.AFaJO71YIO5vK/.gP5mZS74iPWVNS',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:52:19',
@@ -947,7 +947,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 106,
                 'username' => '23.04.028',
-                'password' => '$2y$10$01XlxT7myTPaiQaNwxavRuS5KFAufYAIM22OWJ/hce.x/idP/Idwm',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:53:05',
@@ -958,7 +958,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 107,
                 'username' => '23.04.029',
-                'password' => '$2y$10$UzonD1.w8W8U4ELpplw85OVZQxsGJwsVP6j3KX573WuubnFAfKBU6',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 00:59:36',
@@ -969,7 +969,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 109,
                 'username' => '23.04.031',
-                'password' => '$2y$10$lgkQQItryVEdJot2JDSMwewXNbWFPYUc3XUi8Flu3HbrqhZSIgo5O',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 01:08:35',
@@ -980,7 +980,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 110,
                 'username' => '23.04.032',
-                'password' => '$2y$10$WwoJHmjNRTXx4L7PzRhi6e3h1tI7R8K2Xvn3Dc9J39VZwYuYAryY2',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 01:08:42',
@@ -991,7 +991,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 111,
                 'username' => '23.04.033',
-                'password' => '$2y$10$Z2HIH/4c0sKwZglOs0QA5.FzZCXdShredVgY0sC7YpTsQOn3gnXWm',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 15:00:57',
@@ -1002,7 +1002,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 113,
                 'username' => '23.04.035',
-                'password' => '$2y$10$UvjHsCguLclEPICYafsHkuqXL2LRJtlJYJjeX98jYW1Fr9RIQGNia',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-21 15:01:49',
@@ -1013,7 +1013,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 118,
                 'username' => '-',
-                'password' => '$2y$10$abeZ1m2WBpKz4AeL1zDWBefv6f9kcsL7YkZ3wNBAZgn9HLO9PLuwK',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:23:21',
@@ -1024,7 +1024,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 119,
                 'username' => '-',
-                'password' => '$2y$10$I.qsVxZNNO2Sv5JjKw4raObi6h/y6WWNgn4.Un6XNxH/p/QK9lluu',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:25:16',
@@ -1035,7 +1035,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 120,
                 'username' => '-',
-                'password' => '$2y$10$CavJtXchpmUuLjSU4lYyzOrHcXnhWxaGB5Ok96Y50OFkNwY4JQgyq',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:26:26',
@@ -1046,7 +1046,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 121,
                 'username' => '-',
-                'password' => '$2y$10$4vG2Wy6X3z7h0c0fbBxOuuq2dmfK3sZgy7FYFRoD0pFvqB0BJz.L2',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:26:47',
@@ -1057,7 +1057,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 122,
                 'username' => '-',
-                'password' => '$2y$10$Yjs0N5TDitdEcy/CHDsVr.IiTvvQyO0ZJK7sNLirjMqKNP09bnvaW',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:26:48',
@@ -1068,7 +1068,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 123,
                 'username' => '-',
-                'password' => '$2y$10$I0tvbmzvaqpHJNLfIOJ/dOxz0sVAZzkQa3ahs..ne7bqPi5V8E3m.',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:27:19',
@@ -1079,7 +1079,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 124,
                 'username' => '-',
-                'password' => '$2y$10$.p5ARRADucBQT68lvY32veBwR.gIz38t/UmfYQVNynJs5AIzWD42i',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:27:20',
@@ -1090,7 +1090,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 125,
                 'username' => '-',
-                'password' => '$2y$10$lND8dfEPImr4pB/ailqbzeWP7VECtgau1qHXLY3TaN8hnmrKrdthe',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-26 10:27:23',
@@ -1101,7 +1101,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 130,
                 'username' => '23.04.036',
-                'password' => '$2y$10$9.tiayq5TwsIyl6H2e58tePCPcJoWXXezpm4jSaJPklA5wdV4FerG',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-28 10:44:58',
@@ -1112,7 +1112,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 131,
                 'username' => '23.04.037',
-                'password' => '$2y$10$x6ZgFtMg85nw047USOGrw.f6rREGMCk6yWRRsnccuHmmJ4ctt.tPe',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-28 10:45:04',
@@ -1123,7 +1123,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 138,
                 'username' => 'Lisa Blacpink',
-                'password' => '$2y$10$GZBuQG9zPDJRfWgP5YA.JeKURGPEzbhOW3kepXR4jTsmndjOVFi1q',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-28 13:46:06',
@@ -1134,7 +1134,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 139,
                 'username' => '23.04.038',
-                'password' => '$2y$10$e3NDNjpBMerbCQnt4wpACeSdj9rwbangdI/gxwgohSKrSmCHjRpHa',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-28 13:50:17',
@@ -1145,7 +1145,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 140,
                 'username' => 'Jamet',
-                'password' => '$2y$10$BmuDCKmPY/sPwF6mxW7dY.NBeCmoDbPlQPhm8NJA1hjslHx4zPwB6',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-29 21:36:55',
@@ -1156,7 +1156,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 141,
                 'username' => '23.04.039',
-                'password' => '$2y$10$ApemIBaV0e5wJNqAse0Sw.FtSyjn.8R.qYL10PIOenxxZqQj6imjC',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-04-30 19:02:55',
@@ -1167,7 +1167,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 143,
                 'username' => '23.05.040',
-                'password' => '$2y$10$wEJWxifkGc93gFHqQ1uwK.UJJX53yKEAkNVgwVJ/QjBPbViFqYAmu',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-05 13:32:38',
@@ -1178,7 +1178,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 144,
                 'username' => '23.05.041',
-                'password' => '$2y$10$8UFJWnQjQQ4y6aW8hLnHIefyeFEJ3OaGDiC8UUbnfUEiNZxmYPkHG',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-11 03:02:22',
@@ -1189,7 +1189,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 146,
                 'username' => '23.05.042',
-                'password' => '$2y$10$/5geKcarE13VwAD.oCzctuNUddAiKXGYaRBWqIy6EuUhfS0oUc1T.',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-11 03:09:32',
@@ -1200,7 +1200,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 147,
                 'username' => '23.05.043',
-                'password' => '$2y$10$dj5MgegE4p4YS/duy6Hj0.wDyGA9SbUqwxUnVlGRDHTw/jM2rfJPm',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-11 03:13:59',
@@ -1211,7 +1211,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 148,
                 'username' => '-',
-                'password' => '$2y$10$zpT3VrYkgoRpcV2AeX92ru97L5nULktI1SVfshrs9j.m2OuFInDIu',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-11 03:15:16',
@@ -1222,7 +1222,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 149,
                 'username' => '23.05.044',
-                'password' => '$2y$10$IAEIeYfljQojzGAA8LxBG.ebMHSPPLp9O//LM4JeI7gGxAdW9B47S',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-11 03:15:59',
@@ -1233,7 +1233,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 151,
                 'username' => '23.05.045',
-                'password' => '$2y$10$74x1Iu6aIJnuPk9Ac0PN6enjFjfmdsPn.hPPKazl6aZBYipgHES1m',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:21:51',
@@ -1244,7 +1244,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 152,
                 'username' => '23.05.045',
-                'password' => '$2y$10$OAz.PLRueIiEx1hpR/hrD.49sBZkm8vHN/DpXx.Ki/TDaF2gc921y',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:23:14',
@@ -1255,7 +1255,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 154,
                 'username' => '23.05.047',
-                'password' => '$2y$10$Yf576Vg/vOdAQZcM9oDb9eeV3hsbbKRz33UKzt8dLkNRq0u/Spreq',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:25:38',
@@ -1266,7 +1266,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 155,
                 'username' => '23.05.048',
-                'password' => '$2y$10$URu350VFCWGAHIlNFuPqP.mc6twWDh/yHh09U1pNmUgW1xPT3PJ4S',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:26:44',
@@ -1277,7 +1277,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 156,
                 'username' => '23.05.049',
-                'password' => '$2y$10$3KkhwJQVEOphvldYLkDsceqICABd6HhLrZi8y1UDEXNY7NSXwtiE6',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:32:14',
@@ -1288,7 +1288,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 157,
                 'username' => '23.05.050',
-                'password' => '$2y$10$nxzr8Eq7nEVG/kkFrFX4y.T0phcZ3.hYE4kst7KQ1hsaCb.C6snKe',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:32:43',
@@ -1299,7 +1299,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 158,
                 'username' => '23.05.051',
-                'password' => '$2y$10$jPknVC.sNcOKQySPozqLUueutuFn1PrkkOmoGBTQS7llLhNxpGDJ6',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:33:20',
@@ -1310,7 +1310,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 159,
                 'username' => '23.05.052',
-                'password' => '$2y$10$FNXy3pmnPDGzihRnqXfPiO2S3LtSBisjNKpg07flGeVrXiy6I6ruy',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:33:39',
@@ -1321,7 +1321,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 160,
                 'username' => '23.05.053',
-                'password' => '$2y$10$rI8JisVcuWhaGHtMPkveq.882Z3eo.nCaRs1NVywu2hf9hjTnt1bC',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:34:51',
@@ -1332,7 +1332,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 161,
                 'username' => '23.05.054',
-                'password' => '$2y$10$z.T6S/1ltpb37tgoQnPk7.fNU4EQhjTIzuK7fHeRQRMUsRR0AUkuS',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:35:17',
@@ -1343,7 +1343,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 162,
                 'username' => '23.05.045',
-                'password' => '$2y$10$o0oTRwtulWI95k3k9AV/vuGlVNeFBkDra/2XPIfRfRqR/cnLrONty',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:36:45',
@@ -1354,7 +1354,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 163,
                 'username' => '23.05.046',
-                'password' => '$2y$10$29joNfK6TMAMaQzDCUPJHuIVKESZJ6A67ry6d3qjU2fBAx3HaZk3u',
+                'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
                 'created_at' => '2023-05-24 07:37:02',
@@ -1365,7 +1365,7 @@ class PenggunaTableSeeder extends Seeder
             array (
                 'id_pengguna' => 171,
                 'username' => 'Alfonsus',
-                'password' => '$2y$10$fyEod2GiZkh9nnAksqZafeHNFelK24FlkwuBbDighW8ACReKkbZCK',
+                'password' => bcrypt('0541'),
                 'role' => 'instruktur',
                 'remember_token' => NULL,
                 'created_at' => '2023-06-02 13:56:09',

@@ -5,7 +5,10 @@ use Illuminate\Support\Facades\DB;
 $data = 1;
 $jadwalharian = DB::table('jadwal_harian')->where('id_jadwal_harian',$data)->get();
 ?>
+<?php
 
+
+?>
 
 @foreach ($jadwalharian as $jadwal)
 <p>test</p>

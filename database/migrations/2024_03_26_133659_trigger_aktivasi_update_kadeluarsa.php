@@ -23,7 +23,7 @@ return new class extends Migration
             DECLARE tgl_kadeluarsa_aktivasi DATE;
             
             SELECT id_member INTO member_id FROM transaksi_aktivasi JOIN transaksi_member ON transaksi_aktivasi.nomor_struk = transaksi_member.no_struk_transaksi
-            WHERE transaksi_aktivasi.id_transaksi_aktivasi = NEW.id_transaksi_aktivasi;
+            WHERE transaksi_aktivasi.id_aktivasi = NEW.id_aktivasi;
             SELECT tgl_kadeluarsa_aktivasi INTO tgl_kadeluarsa_aktivasi FROM member WHERE id_member = member_id;
             
             IF tgl_kadeluarsa_aktivasi IS NULL THEN

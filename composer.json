@@ -46,7 +46,7 @@
             "@php artisan key:generate --no-ansi"
         ],
         "post-coba-fix": [
-            "@composer install",
+            "@composer update",
             "@php artisan config:cache",
             "@php artisan config:clear"
         ]

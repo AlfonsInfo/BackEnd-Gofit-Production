@@ -21,7 +21,7 @@ use Spatie\FlareClient\Api;
 */
 
 
-Route::group(['middleware' => ['cors','customCors']], function () {
+// Route::group(['middleware' => ['cors','customCors']], function () {
     // ->middleware('cors');
     // Route::post('login', loginWebController::class)->middleware('cors');
     Route::post('login', 'loginWebController');
@@ -115,4 +115,4 @@ Route::group(['middleware' => ['cors','customCors']], function () {
     Route::get('laporankinerjainstruktur','laporanController@kinerjaInstrukturBulanan');
     Route::get('laporanpendapatantahunan','laporanController@laporanPendapatanPerTahun');
 
-});
+// });

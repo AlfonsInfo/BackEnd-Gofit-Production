@@ -11,6 +11,7 @@ use Carbon\Carbon;
 use App\Http\Controllers\riwayatMemberController;
 use App\Models\riwayat_aktivitas_member;
 
+
 class memberController extends Controller
 {
     //* Tampil Data Member

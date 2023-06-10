@@ -26,7 +26,7 @@ class member extends Model
 
     public function pengguna()  
     {
-        return $this->hasOne(pengguna::class,'id_pengguna','id_pengguna');
+        return $this->hasOne('App\Models\User\pengguna','id_pengguna','id_pengguna');
     }
 
     public function kelas()

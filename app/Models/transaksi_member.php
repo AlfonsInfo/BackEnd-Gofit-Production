@@ -18,19 +18,19 @@ class transaksi_member extends Model
 
 
     public function pegawai(){
-        return $this->hasOne(user\pegawai::class,'id_pegawai','id_pegawai');
+        return $this->hasOne('App\Models\User\pegawai','id_pegawai','id_pegawai');
     }
     public function member(){
-        return $this->hasOne(user\member::class,'id_member','id_member');
+        return $this->hasOne('App\Models\User\member','id_member','id_member');
     }
     public function aktivasi(){
-        return $this->belongsTo(transaksi_aktivasi::class,'no_struk_transaksi','no_struk');
+        return $this->belongsTo('App\Models\transaksi_aktivasi','no_struk_transaksi','no_struk');
     }
     public function deposit_uang(){
-        return $this->belongsTo(transaksi_deposit_reguler::class,'no_struk_transaksi','no_struk');
+        return $this->belongsTo('App\Models\transaksi_deposit_reguler','no_struk_transaksi','no_struk');
     }
     public function deposit_kelas_paket(){
-        return $this->belongsTo(transaksi_deposit_paket::class,'no_struk_transaksi','no_struk');
+        return $this->belongsTo('App\Models\transaksi_deposit_paket','no_struk_transaksi','no_struk');
     }
 
 }

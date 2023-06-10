@@ -79,6 +79,7 @@ class depositPaketController extends Controller
         ]);
         $promo = promo::find($id_promo);
 
+        $member->id_kelas = $request->id_kelas;
         $member->total_deposit_paket = $nominal_deposit + $promo->bonus_promo;
         $member->tgl_kadeluarsa_paket = Carbon::now()->addMonth($masa_berlaku);
         $member->save();

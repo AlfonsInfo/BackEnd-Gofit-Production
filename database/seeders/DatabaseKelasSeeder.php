@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class KelasTableSeeder extends Seeder
+class DatabaseKelasSeeder extends Seeder
 {
 
     /**

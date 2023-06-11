@@ -501,30 +501,6 @@ class JadwalUmumTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id_jadwal_umum' => 49,
-                'hari' => 'Minggu',
-                'id_instruktur' => 'ins-15',
-                'id_kelas' => 20,
-                'jam_mulai' => '13:00:00',
-                'jam_selesai' => '15:00:00',
-                'created_at' => '2023-05-05 13:23:33',
-                'updated_at' => NULL,
-                'deleted_at' => NULL,
-            ),
-            41 => 
-            array (
-                'id_jadwal_umum' => 55,
-                'hari' => 'Senin',
-                'id_instruktur' => 'ins-16',
-                'id_kelas' => 5,
-                'jam_mulai' => '09:00:00',
-                'jam_selesai' => '10:00:00',
-                'created_at' => '2023-06-07 19:00:23',
-                'updated_at' => '2023-06-07 19:00:23',
-                'deleted_at' => NULL,
-            ),
-            42 => 
-            array (
                 'id_jadwal_umum' => 56,
                 'hari' => 'Senin',
                 'id_instruktur' => 'ins-1',
@@ -535,19 +511,7 @@ class JadwalUmumTableSeeder extends Seeder
                 'updated_at' => '2023-06-07 19:00:57',
                 'deleted_at' => NULL,
             ),
-            43 => 
-            array (
-                'id_jadwal_umum' => 57,
-                'hari' => 'Senin',
-                'id_instruktur' => 'ins-14',
-                'id_kelas' => 3,
-                'jam_mulai' => '08:00:00',
-                'jam_selesai' => '10:00:00',
-                'created_at' => '2023-06-07 19:06:06',
-                'updated_at' => '2023-06-07 19:06:06',
-                'deleted_at' => NULL,
-            ),
-            44 => 
+            41 => 
             array (
                 'id_jadwal_umum' => 58,
                 'hari' => 'Jumat',

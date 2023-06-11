@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class PromoTableSeeder extends Seeder
+class DatabasePromoSeeder extends Seeder
 {
 
     /**

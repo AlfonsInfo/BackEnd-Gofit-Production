@@ -13,7 +13,7 @@ return new class extends Migration
     public function up()
     {
         DB::unprepared("
-            CREATE TRIGGER increment_struk-transaksi
+            CREATE TRIGGER increment_struk_transaksi
             BEFORE INSERT ON transaksi_member
             FOR EACH ROW
             BEGIN
@@ -25,7 +25,7 @@ return new class extends Migration
                             RIGHT(no_struk_transaksi, LOCATE(
                                 '.', REVERSE(no_struk_transaksi)
                             ) 
-                                  - 1)AS UNSIGNED
+                                - 1)AS UNSIGNED
                         ) 
                     ), 0
                 ) + 1 FROM transaksi_member);

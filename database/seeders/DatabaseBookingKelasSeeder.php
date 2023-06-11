@@ -30,7 +30,7 @@ class DatabaseBookingKelasSeeder extends Seeder
             if (rand(1, 10) == 1) {
                 $rand_status_kehadiran = 0;
             }
-            $deposit = rand(0, 1) ? "Deposit Reguler" : "Deposit aket";
+            $deposit = rand(0, 1) ? "Deposit Reguler" : "Deposit Paket";
 
             $members = collect($dataMember)->random($randomJumlahPeserta);
 

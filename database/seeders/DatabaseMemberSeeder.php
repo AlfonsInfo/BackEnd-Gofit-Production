@@ -18,7 +18,7 @@ class DatabaseMemberSeeder extends Seeder
         $jalanMember = ['Jalan Merdeka', 'Jalan Raya', 'Jalan Mawar', 'Jalan Surya', 'Jalan Pahlawan', 'Jalan Anggrek', 'Jalan Jati', 'Jalan Kenari', 'Jalan Flamboyan', 'Jalan Cempaka','Jalan Sumberan'];
         
 
-        //* Untuk Tanggal Lahir
+        //* Untuk Tanggal Lah   ir
         $startDateBorn = '1995-01-01';
         $endDateBorn = '2002-12-21';
         $startDateBornCarbon = new Carbon($startDateBorn);
@@ -173,13 +173,15 @@ class DatabaseMemberSeeder extends Seeder
                     'tanggal_deposit' => $randomDepositPaket,
                     'nominal_deposit_kelas' => 6,
                     'nominal_uang' => '750000',
-                    'tanggal_kadeluarsa' => $tanggalKadeluarsa->addMonths(3),
+                    'tanggal_kadeluarsa' => $tanggalKadeluarsa->addMonths(1),
                     'id_promo'=> 2,
                     'no_struk' => $dataTerakhir->no_struk_transaksi,
                     'id_kelas' => $kelas,
                     // 'created_at' => $randomDepositPaket,
                 ]);
                 $member->id_kelas = $kelas;
+                $member->total_deposit_paket = 6;
+                $member->tgl_kadeluarsa_paket = $tanggalKadeluarsa->addMonths(1);
                 $member->save();
 
             }

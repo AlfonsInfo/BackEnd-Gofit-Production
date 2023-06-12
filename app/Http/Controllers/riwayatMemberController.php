@@ -54,6 +54,7 @@ class riwayatMemberController extends Controller
     public function showRiwayatByMemberKelas(Request $request){
         $riwayatMember = booking_kelas::where('id_member', $request->id_member)->with(['jadwal_harian.jadwal_umum.kelas','jadwal_harian.jadwal_umum.instruktur','jadwal_harian.ijin_instruktur'])
         ->orderBy('created_at', 'desc')
+        ->take(10)
         ->get();
 
 

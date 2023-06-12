@@ -169,7 +169,7 @@ class jadwalHarianController extends Controller
     
     //* UNTUK MOBILE APPS (TAMPILIN TODAY CLASSES DI LOGIN SEBAGAI MO)    
     public function todayClasses(){
-        $todayClass = jadwal_harian::whereDate('tanggal_jadwal_harian',Carbon::today())->with(['jadwal_umum','jadwal_umum.instruktur','jadwal_umum.kelas','ijin_instruktur','ijin_instruktur.instruktur','ijin_instruktur.instrukturPengganti'])->get();
+        $todayClass = jadwal_harian::whereDate('tanggal_jadwal_harian',Carbon::today())->with(['jadwal_umum','jadwal_umum.instruktur','jadwal_umum.kelas','ijin_instruktur','ijin_instruktur.instruktur','ijin_instruktur.instrukturPengganti   '])->get();
         return response([
             //* return response
             'message'=>'Success Tampil Data',

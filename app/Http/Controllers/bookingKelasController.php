@@ -164,4 +164,42 @@ class bookingKelasController extends Controller
         //* ada yang sama
         return true;
     }
+
+    public function showData(Request $request){
+        $date = Carbon::today();
+        $bookingKelas = booking_kelas::where('id_member', $request->id_member)
+        ->with(['jadwal_harian'])
+        ->where('is_canceled', 0)
+        ->whereBetween('tanggal_booking', [Carbon::now()->subWeek(), Carbon::now()])
+        ->whereHas('jadwal_harian', function ($query) use ($date) {
+            $query->whereDate('tanggal_jadwal_harian','>=','2023-06-05');
+        })
+        ->get();
+
+    return(response(['data' => $bookingKelas]));
+    }
+
+
+    public function cancelBookingKelas($noBook){
+        //* Cari Data yang sesuai dengan nomor Booking
+        $bookingKelas = booking_gym::find($noBook);
+        $jadwalHarian = jadwal_harian::find($bookingKelas->id_jadwal_harian);
+        //* Cek minimal cancel h-1 Tanggal_Sesi_Gym - 1 
+        $today = Carbon::today();
+        $batasCancel = Carbon::parse($jadwalHarian->tanggal_jadwal_harian)->subDay();
+        if($batasCancel->greaterThanOrEqualTo($today)){
+            //* Ubah is_canceled -> true ( stand for booking gym already canceled)
+            $bookingKelas->is_canceled =  1;
+            $bookingKelas->update();
+            //* Response
+            return response(
+                [
+                    'message' => 'Berhasil Membatalkan',
+                    'data' => $bookingKelas
+                ]);
+        }else{
+            return response(['message' => 'Tidak bisa membatalkan, maksimal pembatalan H-1'],400);
+        }
+    }
+
 }   

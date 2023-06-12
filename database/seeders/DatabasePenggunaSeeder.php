@@ -21,7 +21,7 @@ class DatabasePenggunaSeeder extends Seeder
         \DB::table('pengguna')->insert(array (
             0 => 
             array (
-                'username' => '23.03.001',
+                'username' => '23.06.001',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -30,7 +30,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.03.002',
+                'username' => '23.06.002',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -39,7 +39,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.03.003',
+                'username' => '23.06.006',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -48,7 +48,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.03.004',
+                'username' => '23.06.004',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -57,7 +57,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.03.005',
+                'username' => '23.06.005',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -66,7 +66,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.04.006',
+                'username' => '23.06.006',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -75,7 +75,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.04.007',
+                'username' => '23.06.007',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -84,7 +84,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.04.008',
+                'username' => '23.06.008',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -93,7 +93,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.05.009',
+                'username' => '23.06.009',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -102,7 +102,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.05.010',
+                'username' => '23.06.010',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -111,7 +111,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => '23.05.011',
+                'username' => '23.06.011',
                 'password' => bcrypt('0541'),
                 'role' => 'member',
                 'remember_token' => NULL,
@@ -120,7 +120,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => 'Admin_Ganteng',
+                'username' => 'admin_ganteng',
                 'password' => bcrypt('admin0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
@@ -129,7 +129,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => 'mo_Ganteng',
+                'username' => 'mo_ganteng',
                 'password' => bcrypt('mo0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,
@@ -138,7 +138,7 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
-                'username' => 'kasir_Ganteng',
+                'username' => 'kasir_ganteng',
                 'password' => bcrypt('kasir0541'),
                 'role' => 'pegawai',
                 'remember_token' => NULL,

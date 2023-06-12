@@ -12,12 +12,12 @@ class DatabasePegawaiSeeder extends Seeder
     public function run()
     {
             //dummy 15 nama
-            $namaPegawai = ['Alfons Admin','Alfons Kasir','Alfons MO','Yuna'];
+            $namaPegawai = ['Alfons Admin','Alfons MO','Alfons Kasir','Yuna'];
             $jalanMember = ['Jalan Sumberan', 'Jalan Seturan', 'Jalan Wahid Hasyim', 'Jalan Babarsari'];
             $jabatanPegawai = ['Admin', 'kasir', 'MO', 'kasir'];
             
     
-            //* Untuk Tanggal Lahir
+            //* Untuk Tanggal Lahir 
             $startDateBorn = '1995-01-01';
             $endDateBorn = '2002-12-21';
             $startDateBornCarbon = new Carbon($startDateBorn);

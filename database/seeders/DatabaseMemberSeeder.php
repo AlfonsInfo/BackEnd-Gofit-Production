@@ -18,7 +18,7 @@ class DatabaseMemberSeeder extends Seeder
         $jalanMember = ['Jalan Merdeka', 'Jalan Raya', 'Jalan Mawar', 'Jalan Surya', 'Jalan Pahlawan', 'Jalan Anggrek', 'Jalan Jati', 'Jalan Kenari', 'Jalan Flamboyan', 'Jalan Cempaka','Jalan Sumberan'];
         
 
-        //* Untuk Tanggal Lah   ir
+        //* Untuk Tanggal Lahir
         $startDateBorn = '1995-01-01';
         $endDateBorn = '2002-12-21';
         $startDateBornCarbon = new Carbon($startDateBorn);
@@ -87,7 +87,7 @@ class DatabaseMemberSeeder extends Seeder
 
             
             $randomDeposit = clone $randomAktivasi;
-            $randomDeposit = $randomAktivasi->addDays(rand(0,100));
+            $randomDeposit = $randomAktivasi->addDays(rand(0,30));
 
             for ($i = 0; $i < 8; $i++) {
                 $phoneNumberRand .= rand(0, 9);

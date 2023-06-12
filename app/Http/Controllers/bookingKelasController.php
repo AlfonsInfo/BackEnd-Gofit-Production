@@ -183,7 +183,7 @@ class bookingKelasController extends Controller
 
     public function cancelBookingKelas($noBook){
         //* Cari Data yang sesuai dengan nomor Booking
-        $bookingKelas = booking_gym::find($noBook);
+        $bookingKelas = booking_kelas::find($noBook);
         $jadwalHarian = jadwal_harian::find($bookingKelas->id_jadwal_harian);
         //* Cek minimal cancel h-1 Tanggal_Sesi_Gym - 1 
         $today = Carbon::today();

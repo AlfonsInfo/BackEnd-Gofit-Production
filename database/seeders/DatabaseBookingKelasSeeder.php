@@ -17,7 +17,7 @@ class DatabaseBookingKelasSeeder extends Seeder
     {
         $dataMember = DB::table('member')->get()->toArray();
         $dataJadwalHarian = DB::table('jadwal_harian')->get();
-        $randomJumlahPeserta = rand(5, 9);
+        $randomJumlahPeserta = rand(5, 10);
 
         foreach ($dataJadwalHarian as $kelas) {
             $tanggalBooking = Carbon::parse($kelas->tanggal_jadwal_harian)->subDays(rand(1, 7));

@@ -14,7 +14,7 @@ class DatabasePegawaiSeeder extends Seeder
             //dummy 15 nama
             $namaPegawai = ['Alfons Admin','Alfons MO','Alfons Kasir','Yuna'];
             $jalanMember = ['Jalan Sumberan', 'Jalan Seturan', 'Jalan Wahid Hasyim', 'Jalan Babarsari'];
-            $jabatanPegawai = ['Admin', 'kasir', 'MO', 'kasir'];
+            $jabatanPegawai = ['Admin', 'MO', 'kasir', 'kasir'];
             
     
             //* Untuk Tanggal Lahir 

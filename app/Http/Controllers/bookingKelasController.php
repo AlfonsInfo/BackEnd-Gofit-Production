@@ -174,6 +174,7 @@ class bookingKelasController extends Controller
         ->whereHas('jadwal_harian', function ($query) use ($date) {
             $query->whereDate('tanggal_jadwal_harian','>=','2023-06-05');
         })
+        ->orderBy('no_booking',)
         ->get();
 
     return(response(['data' => $bookingKelas]));

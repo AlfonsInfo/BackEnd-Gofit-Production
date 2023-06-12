@@ -14,7 +14,7 @@ class DatabaseMemberSeeder extends Seeder
     public function run()
     {
         //dummy 15 nama
-        $namaMember = ['Alfonsus Member','Casey Andreas','Harley Patterson','Nadya Nixon','Alan Vega','Alanna Hill','Boone Wall','King Duran','Dior Wyatt','Yonas','Slamet'];
+        $namaMember = ['Alfonsus Member','Casey Andreas','Harley Patterson','Nadya Nixon','Alan Vega','Alanna Hill','Boone Wall','King Duran','Dior Wyatt','Jonss','Slamet'];
         $jalanMember = ['Jalan Merdeka', 'Jalan Raya', 'Jalan Mawar', 'Jalan Surya', 'Jalan Pahlawan', 'Jalan Anggrek', 'Jalan Jati', 'Jalan Kenari', 'Jalan Flamboyan', 'Jalan Cempaka','Jalan Sumberan'];
         
 

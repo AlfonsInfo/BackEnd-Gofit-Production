@@ -39,6 +39,15 @@ class DatabasePenggunaSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
             array (
+                'username' => '23.06.003',
+                'password' => bcrypt('0541'),
+                'role' => 'member',
+                'remember_token' => NULL,
+                'created_at' => '2023-06-02 13:56:09',
+                'updated_at' => '2023-06-02 13:56:09',
+                'deleted_at' => NULL,
+            ),
+            array (
                 'username' => '23.06.006',
                 'password' => bcrypt('0541'),
                 'role' => 'member',

@@ -80,6 +80,7 @@ use Spatie\FlareClient\Api;
     Route::post('/tampilbookinggym', 'bookingGymController@showData');
     Route::post('/tampilbookingkelas', 'bookingKelasController@showData');
     Route::put('/cancelbookinggym/{noBook}', 'bookingGymController@cancelBookingGym');
+    Route::put('/cancelbookingkelas/{noBook}', 'bookingKelasController@cancelBookingGym');
     Route::get('/todayclasses', 'jadwalHarianController@todayClasses');
     Route::put('/updatemulai/{id}', 'jadwalHarianController@updateJamMulai');
     Route::put('/updateselesai/{id}', 'jadwalHarianController@updateJamSelesai');

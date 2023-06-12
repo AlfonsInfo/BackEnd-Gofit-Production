@@ -168,7 +168,7 @@ class bookingKelasController extends Controller
     public function showData(Request $request){
         $date = Carbon::today();
         $bookingKelas = booking_kelas::where('id_member', $request->id_member)
-        ->with(['jadwal_harian'])
+        ->with(['jadwal_harian.jadwal_umum.kelas','jadwal_harian.jadwal_umum.instruktur','jadwal_harian.ijin_instruktur.instruktur','jadwal_harian.ijin_instruktur.instruktur_pengganti'])
         ->where('is_canceled', 0)
         ->whereBetween('tanggal_booking', [Carbon::now()->subWeek(), Carbon::now()])
         ->whereHas('jadwal_harian', function ($query) use ($date) {

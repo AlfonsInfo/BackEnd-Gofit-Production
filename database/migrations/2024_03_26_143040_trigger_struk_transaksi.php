@@ -48,7 +48,7 @@ return new class extends Migration
      */
     public function down()
     {
-        DB::unprepared('DROP TRIGGER `increment_struk-transaksi`');
+        DB::unprepared('DROP TRIGGER `increment_struk_transaksi`');
     }
 };
 
